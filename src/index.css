@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --body-clr: #121b2b;
+  --secondry-clr: #111828;
+}
+
+body {
+  background-color: #1b2439;
+}
+
+nav {
+  background: var(--secondry-clr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul input {
+  width: 500px;
+  padding: 10px 20px;
+  outline: none;
+  border-radius: 90px;
+  border: none;
+  border: 1px solid #303030;
+  color: white;
+}
+
+nav ul input:focus {
+  border-color: #1a62b9;
+}
+.name-icon {
+  color: white;
+  border-radius: 50%;
+}
+
+.icon {
+  color: white;
+  font-size: 25px;
+}
+
+.center {
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #303030;
+  padding: 5px 10px;
+  border-radius: 90px;
+}
+
+.voice-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #303030;
+  border-radius: 50%;
+}
+
+.sidebar-parent {
+  display: flex;
+  justify-content: flex-end;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--body-clr);
+  overflow-y: auto;
+  width: 240px;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.sidebar div {
+  margin-right: 10px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 9px;
+}
