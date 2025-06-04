@@ -5,7 +5,6 @@ import {
   Outlet,
   Routes,
   Route,
-  useParams,
 } from "react-router-dom";
 
 import Main from "../pages/Main";

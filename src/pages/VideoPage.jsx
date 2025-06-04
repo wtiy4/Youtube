@@ -206,7 +206,7 @@ function VideoPage() {
                             onClick={() => handleDeleteComment(comment.id)}
                             className="absolute top-2 right-2 text-xl cursor-pointer t hover:text-red-600"
                           >
-                            x
+                            X
                           </button>
                         )}
                       </div>

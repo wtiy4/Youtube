@@ -58,7 +58,7 @@ function Nav() {
             </li>
           ) : (
             <Link to="/login">
-              <li className="cursor-pointer text-white">تسجيل الدخول</li>
+              <li className="cursor-pointer text-white">sign in</li>
             </Link>
           )}
         </li>
